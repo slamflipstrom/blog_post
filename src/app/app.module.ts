@@ -4,10 +4,16 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
+import { InputComponent } from './input/input.component';
+import { ActiveListComponent } from './active-list/active-list.component';
+import { InactiveListComponent } from './inactive-list/inactive-list.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    InputComponent,
+    ActiveListComponent,
+    InactiveListComponent
   ],
   imports: [
     BrowserModule,
