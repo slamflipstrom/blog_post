@@ -7,13 +7,15 @@ import { AppComponent } from './app.component';
 import { InputComponent } from './input/input.component';
 import { ActiveListComponent } from './active-list/active-list.component';
 import { InactiveListComponent } from './inactive-list/inactive-list.component';
+import { ItemComponent } from './item/item.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     InputComponent,
     ActiveListComponent,
-    InactiveListComponent
+    InactiveListComponent,
+    ItemComponent
   ],
   imports: [
     BrowserModule,
